@@ -97,4 +97,5 @@ export | grep -E -e ' (PATH|LD_LIBRARY_PATH|LIBRARY_PATH|INCLUDE_PATH|CPATH|CPPP
 echo $LD_LIBRARY_PATH
 echo $LIBRARY_PATH
 echo $PKG_CONFIG_PATH
+ls -li $BUILD_DIR
 ls -li /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu
