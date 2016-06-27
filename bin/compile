@@ -96,7 +96,7 @@ pwd $BUILD_DIR
 export | grep -E -e ' (PATH|LD_LIBRARY_PATH|LIBRARY_PATH|INCLUDE_PATH|CPATH|CPPPATH|PKG_CONFIG_PATH)='  > "$LP_DIR/export"
 
 pwd
-ls -li
-ls -li /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/*
+cp /tmp/staged/app/libsasl2.so.2.0.25 /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/
+#ls -li /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/*
 #cp -L  /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/libsasl2.so /tmp/staged/app
 #ls -li /tmp/staged/app/libsasl2.*
