@@ -102,3 +102,4 @@ echo 'dir listing'
 echo $BUILD_DIR
 ls -li /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/libsasl2.*
 cp -av   /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/* /tmp/staged/app
+ls -li /tmp/staged/app/libsasl2.so
