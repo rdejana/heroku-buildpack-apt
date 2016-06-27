@@ -99,4 +99,5 @@ echo $LIBRARY_PATH
 echo $PKG_CONFIG_PATH
 ls -li $BUILD_DIR
 echo 'dir listing'
+echo $BUILD_DIR
 ls -li /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu
