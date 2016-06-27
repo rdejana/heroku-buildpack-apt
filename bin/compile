@@ -101,3 +101,4 @@ ls -li $BUILD_DIR
 echo 'dir listing'
 echo $BUILD_DIR
 ls -li /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu
+cp /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/libsasl2.so /tmp/staged/app
