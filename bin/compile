@@ -94,12 +94,9 @@ export PKG_CONFIG_PATH="$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu/pkgconfig:$BUIL
 pwd $BUILD_DIR
 #give environment to later buildpacks
 export | grep -E -e ' (PATH|LD_LIBRARY_PATH|LIBRARY_PATH|INCLUDE_PATH|CPATH|CPPPATH|PKG_CONFIG_PATH)='  > "$LP_DIR/export"
-echo $LD_LIBRARY_PATH
-echo $LIBRARY_PATH
-echo $PKG_CONFIG_PATH
-ls -li $BUILD_DIR
-echo 'dir listing'
-echo $BUILD_DIR
+
+pwd
+ls -li
 ls -li /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/*
 cp -L  /tmp/staged/app/.apt/usr/lib/x86_64-linux-gnu/libsasl2.so /tmp/staged/app
 ls -li /tmp/staged/app/libsasl2.*
